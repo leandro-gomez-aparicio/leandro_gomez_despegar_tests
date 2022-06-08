@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class DespegarHotelPage {
 	
-	@FindBy(css = "div.re-search-main-col>ul li>a em")
+    @FindBy(css = "div.re-search-main-col>ul li>a em")
     private WebElement botonModificar;
     @FindBy(css = "aloha-re-search>div.-show-content")
     private WebElement modificarMenu;
