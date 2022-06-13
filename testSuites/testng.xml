@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="Navegador" value="CHROME"/>
+    <test verbose="2" preserve-order="true" name="C:\Users\leo-8\eclipse-workspace\ProyectoDespegar">
+        <groups>
+            <run>
+                <!-- Despegar Test -->
+                <include name="Navegar"/>
+                <include name="Test Buttons"/>
+
+
+            </run>
+        </groups>
+    <classes>
+      <class name="ProyectoDespegar.ProyectoDespegar.test.DespegarTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
