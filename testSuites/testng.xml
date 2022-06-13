@@ -7,7 +7,6 @@
             <run>
                 <!-- Despegar Test -->
                 <include name="Navegar"/>
-                <include name="Test Buttons"/>
 
 
             </run>
